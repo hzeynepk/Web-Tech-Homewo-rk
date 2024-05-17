@@ -11,8 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    ,
+  <body style="background-color: azure">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Menü</a>
@@ -76,10 +75,121 @@
         </div>
       </div>
     </nav>
-    <h1>Ana Sayfa</h1>
-    <span class="badge badge-info">Hakkımda</span>
-    <h3>Sevdiğim Etkinlikler</h3>
-    <h4></h4>
+    <div style="height: 70px">
+      <h1 style="color: rgb(71, 69, 69)">Ana Sayfa</h1>
+    </div>
+    <h2 style="color: rgb(71, 69, 69); height: 50px">Hakkımda</h2>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      style="overflow: hidden; width: 50%; margin-left: 450px"
+    >
+      <h2 style="margin-bottom: 4%; margin-left: 350px">
+        Sevdiğim etkinlikler
+      </h2>
+
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="WhatsApp Image 2024-05-16 at 17.33.34.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="background-color: black"
+          >
+            <h5>Güzel yerler görmek</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="WhatsApp Image 2024-05-16 at 18.46.49.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="background-color: black"
+          >
+            <h5>Yemek yapmak ve yemek</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="WhatsApp Image 2024-05-16 at 19.08.02.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="background-color: black"
+          >
+            <h5>One Piece izlemek</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="WhatsApp Image 2024-05-16 at 19.22.12.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="background-color: black"
+          >
+            <h5>Sevdiklerimle vakit geçirmek</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+      </button>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
