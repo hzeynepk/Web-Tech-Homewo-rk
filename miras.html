@@ -3,39 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Favori Pokemonum</title>
+    <title>A to Zey</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
-        padding-top: 20px;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: center;
-      }
-      #pokemonName {
-        margin-bottom: 10px;
-      }
-      #fetchButton {
-        margin-bottom: 20px;
-      }
-      #pokemonSprite {
-        width: 300px;
-        height: auto;
-        display: none;
-        margin: 20px auto;
-      }
-    </style>
   </head>
-  <body>
+  <body style="background-color: azure">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Menü</a>
@@ -79,7 +55,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="miras.html"
+              <a class="nav-link active" aria-current="page" href="sehrim.html"
                 >Sakarya'nın Mirası</a
               >
             </li>
@@ -101,27 +77,57 @@
         </div>
       </div>
     </nav>
-    <header class="bg-light p-4 mb-4">
-      <h1 class="text-center">Benim favori Pokemon'un Zeraora. Seninki ne?</h1>
+    <header>
+      <h1>Beşköprü - Sakarya'nın Tarihi Eseri</h1>
     </header>
-    <div class="container">
-      <input
-        type="text"
-        id="pokemonName"
-        class="form-control"
-        placeholder="Bir Pokemon ismi gir"
-      />
-      <button onclick="fetchData()" id="fetchButton" class="btn btn-primary">
-        Pokemon'u Göster
-      </button>
-      <img src="" alt="Pokemon Sprite" id="pokemonSprite" />
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="scriptapi.js"></script>
+    <main>
+      <article>
+        <h2>Beşköprü Nedir?</h2>
+        <p>
+          Beşköprü, Sakarya ilinin önemli tarihi eserlerinden biridir. Osmanlı
+          döneminde inşa edilmiş olan bu köprü, Karasu Nehri üzerinde bulunur ve
+          bölgenin önemli bir ulaşım noktasıdır.
+        </p>
+        <p>
+          Köprü, beş kemerden oluşur ve muhteşem mimarisiyle görenleri etkiler.
+          Adını beş kemerinden aldığı düşünülmektedir.
+        </p>
+      </article>
+      <section>
+        <h2>Beşköprü Hakkında Bilgi</h2>
+        <ul>
+          <li><strong>Yapım Yılı:</strong> 16. yüzyılın sonları</li>
+          <li><strong>Mimari:</strong> Osmanlı Mimari Tarzı</li>
+          <li><strong>Konum:</strong> Adapazarı, Sakarya</li>
+          <li><strong>Kullanım:</strong> Taşıt ve Yaya Trafiği</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Beşköprü Fotoğrafı</h2>
+        <img
+          src="https://www.kulturportali.gov.tr/repoKulturPortali/large/27022013/d410bbc3-26bf-4b9d-ad64-a8cbff4c6b24.JPG?format=jpg&quality=50"
+          alt="Beşköprü Fotoğrafı"
+          style="max-width: 100%; height: auto"
+        />
+      </section>
+      <section>
+        <h2>Beşköprü Hakkında Daha Fazla Bilgi</h2>
+        <p>
+          Beşköprü hakkında daha fazla bilgi almak için Kültür Portalı'nı
+          ziyaret edebilirsiniz.
+        </p>
+        <p>
+          <a
+            href="https://www.kulturportali.gov.tr/turkiye/sakarya/gezilecekyer/justinianus-koprusu"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Daha fazla bilgi için tıklayın</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Sakarya Beşköprü. Tüm hakları saklıdır.</p>
+    </footer>
   </body>
 </html>
